@@ -85,31 +85,16 @@ import { Fade } from "react-reveal";
 
 export default function GithubRepoCard({ repo, theme }) {
   const isCompanyProject = repo.isCompanyProject;
-
-  function openRepoinNewTab(url) {
-    if (!url || url === "#") return;
-
-    const win = window.open(url, "_blank");
-    if (win) {
-      win.focus();
-    }
-  }
-
   return (
     <div
       className={`repo-card-div ${isCompanyProject ? "company-repo-card" : ""}`}
       style={{ backgroundColor: theme.highlight }}
     >
       <Fade bottom duration={2000} distance="40px">
-        {/* <div
-          key={repo.id}
-          onClick={() => openRepoinNewTab(repo.url)}
-          className={isCompanyProject ? "company-repo-content" : ""}
-        > */}
         <div
-  key={repo.id}
-  className={isCompanyProject ? "company-repo-content" : ""}
->
+          key={repo.id}
+          className={isCompanyProject ? "company-repo-content" : ""}
+        >
           {/* ================= COMPANY PROJECT LOGO ================= */}
 
           {isCompanyProject && repo.websiteLogo && (
