@@ -15,6 +15,7 @@ import {
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import CompanyProjectsData from "../../shared/opensource/companyProjects.json";
 
 class Projects extends Component {
   render() {
@@ -49,13 +50,59 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
-        <div className="repo-cards-div-main">
+        {/* <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
         </div>
         <Button
           text={"More Projects"}
+          className="project-button"
+          href={greeting.githubProfile}
+          newTab={true}
+          theme={theme}
+        /> */}
+
+        {/* ==================== COMPANY PROJECTS ==================== */}
+
+        <div className="company-projects-section">
+          <div className="project-section-title">
+            <h2 style={{ color: theme.text }}>Company Projects</h2>
+
+            <p style={{ color: theme.secondaryText }}>
+              Professional projects I have contributed to as a Frontend
+              Developer, working with React.js, JavaScript, REST APIs, and
+              modern frontend development practices.
+            </p>
+          </div>
+
+          <div className="repo-cards-div-main">
+            {CompanyProjectsData.data.map((project) => {
+              return (
+                <GithubRepoCard key={project.id} repo={project} theme={theme} />
+              );
+            })}
+          </div>
+        </div>
+
+        {/* ==================== PERSONAL PROJECTS ==================== */}
+
+        <div className="project-section-title">
+          <h2 style={{ color: theme.text }}>Personal Projects</h2>
+          <p style={{ color: theme.secondaryText }}>
+            Projects I have built independently to explore technologies, improve
+            my skills, and solve real-world problems.
+          </p>
+        </div>
+
+        <div className="repo-cards-div-main">
+          {ProjectsData.data.map((repo) => {
+            return <GithubRepoCard key={repo.id} repo={repo} theme={theme} />;
+          })}
+        </div>
+
+        <Button
+          text={"More Personal Projects"}
           className="project-button"
           href={greeting.githubProfile}
           newTab={true}

@@ -1,0 +1,109 @@
+{
+  "data": [
+    {
+      "id": "sunedge",
+      "name": "Sunedge E-commerce & MLM Distribution Platform",
+      "description": "A production-scale e-commerce and MLM platform with role-based access, distributor and franchise portals, multi-channel order fulfillment, and secure online payment integration.",
+      "url": "https://mysunedge.com",
+      "isFork": false,
+      "isCompanyProject": true,
+      "websiteLogo": "/icons/sunedge.png",
+      "languages": [
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos:react"
+        },
+        {
+          "name": "Bootstrap",
+          "iconifyClass": "logos:bootstrap"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "Express.js",
+          "iconifyClass": "simple-icons:express"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos:postgresql"
+        },
+        {
+          "name": "Axios",
+          "iconifyClass": "simple-icons:axios"
+        },
+        {
+          "name": "REST API",
+          "iconifyClass": "mdi:api"
+        }
+      ]
+    },
+    {
+      "id": "artrise",
+      "name": "ArtRise – Artist Management Platform",
+      "description": "A comprehensive admin management platform for managing users, artists, content, referrals, rewards, advertisements, support tickets, notifications, reported posts, CMS content, and system settings through a centralized dashboard.",
+      "url": "https://admin.artrise.app/admin/login",
+      "isFork": false,
+      "isCompanyProject": true,
+      "websiteLogo": "/icons/artrise.svg",
+      "languages": [
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos:react"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos:javascript"
+        },
+        {
+          "name": "REST API",
+          "iconifyClass": "mdi:api"
+        },
+        {
+          "name": "Bootstrap",
+          "iconifyClass": "logos:bootstrap"
+        }
+      ]
+    },
+    {
+      "id": "bellaz-vision",
+      "name": "Bellaz Vision – Digital Signage CMS Platform",
+      "description": "A CMS-based digital signage platform with separate Admin and User panels, responsive dashboards, REST API integration, authentication, role-based access, media management, content uploads, and payment workflows.",
+      "url": "https://bellazvision.com",
+      "isFork": false,
+      "isCompanyProject": true,
+      "websiteLogo": "/icons/bellazvision.png",
+      "languages": [
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos:react"
+        },
+        {
+          "name": "Bootstrap",
+          "iconifyClass": "logos:bootstrap"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "Express.js",
+          "iconifyClass": "simple-icons:express"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos:postgresql"
+        },
+        {
+          "name": "Axios",
+          "iconifyClass": "simple-icons:axios"
+        },
+        {
+          "name": "REST API",
+          "iconifyClass": "mdi:api"
+        }
+      ]
+    }
+  ]
+}
